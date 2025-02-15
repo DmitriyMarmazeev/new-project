@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+.container {
+  display: flex;
+  margin: 10px;
+  border: 2px solid red;
+  align-items: flex-end;
+  gap: 10px;
+  width: fit-content;
+}
+.block {
+  width: 100px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.block:nth-child(1) {
+  height: 50px;
+}
+.block:nth-child(2) {
+  height: 100px;
+}
+.block:nth-child(3) {
+  height: 150px;
+}
